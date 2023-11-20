@@ -1,0 +1,95 @@
+/* Reset margin, padding */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.red {
+  border: 1px solid red;
+}
+
+.green {
+  border: 1px solid green;
+}
+
+.banner {
+  height: 500px;
+  width: 100%;
+  background: url(Image/background-xanh-duong.jpeg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+.banner .about-sign-in {
+  height: 80px;
+  width: 100%;
+  text-align: right;
+}
+.banner .about-sign-in .sign-in {
+  margin-right: 60px;
+  margin-left: 25px;
+  border: 2px solid green;
+  border-radius: 20px;
+}
+.banner .about-sign-in .about,
+.banner .about-sign-in .sign-in {
+  margin-top: 20px;
+  text-decoration: none;
+  padding-top: 7px;
+  padding: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.banner .about-sign-in .about:hover,
+.banner .about-sign-in .sign-in:hover {
+  background-color: aqua;
+}
+.banner .logo {
+  background: url(Image/yen_mong_mo-removebg-preview.png) center no-repeat;
+  height: 100px;
+  margin-top: 40px;
+}
+.banner .text {
+  margin-top: 100px;
+  text-align: center;
+  font-weight: 600;
+  color: red;
+  font-size: 30px;
+}
+.banner .btn-start-now {
+  text-align: center;
+}
+.banner .btn-start-now button {
+  margin-top: 20px;
+  text-transform: uppercase;
+  border: 2px solid green;
+  border-radius: 20px;
+  padding: 15px 25px;
+  cursor: pointer;
+}
+.banner .btn-start-now button:hover {
+  background-color: green;
+}
+.banner .content-center {
+  height: 70px;
+  text-align: center;
+}
+.banner .content-center .left img,
+.banner .content-center .centre img,
+.banner .content-center .right img {
+  width: 130px;
+  border-radius: 70px;
+  height: 115px;
+  /* Add this line to make images inline */
+  margin: 0 10px;
+  /* Adjust margin as needed */
+}
+.banner .content-center .left,
+.banner .content-center .right,
+.banner .content-center .centre {
+  display: inline-block;
+  width: 33%;
+}
+.banner span {
+  font-size: 25px;
+  display: block;
+}
